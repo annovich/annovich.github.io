@@ -51,3 +51,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - ngh —branch=master
 - ngh --dry-run
 - ngh
+
+## Clone master branch
+
+- git clone https://github.com/annovich/annovich.github.io.git master
+
+## Deploy branch to master
+
+- git checkout master
+- git pull origin branch --allow-unrelated-histories
+- git push origin master
